@@ -1,0 +1,261 @@
+[
+  {
+    "id": "MAINT-001",
+    "bike_id": "BSU-001",
+    "bike_name": "Spartan Cruiser",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-15T08:00:00Z",
+    "next_maintenance": "2024-04-15T08:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Regular maintenance check and tune-up",
+    "work_performed": [
+      "Tire pressure check and adjustment",
+      "Brake inspection and adjustment",
+      "Chain lubrication",
+      "General cleaning",
+      "Safety check"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Bike in excellent condition, no issues found",
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "MAINT-002",
+    "bike_id": "BSU-003",
+    "bike_name": "Spartan Hybrid",
+    "maintenance_type": "repair",
+    "maintenance_date": "2024-01-10T09:00:00Z",
+    "next_maintenance": "2024-02-10T09:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Gear shifting issues and brake adjustment",
+    "work_performed": [
+      "Gear cable replacement",
+      "Brake pad replacement",
+      "Derailleur adjustment",
+      "Wheel alignment",
+      "Safety check"
+    ],
+    "parts_replaced": [
+      {
+        "part": "Gear cable",
+        "cost": 150.0
+      },
+      {
+        "part": "Brake pads",
+        "cost": 200.0
+      }
+    ],
+    "cost": 350.0,
+    "notes": "Bike had significant wear from heavy usage. Repairs completed successfully.",
+    "created_at": "2024-01-10T09:00:00Z",
+    "updated_at": "2024-01-10T14:00:00Z"
+  },
+  {
+    "id": "MAINT-003",
+    "bike_id": "BSU-005",
+    "bike_name": "Spartan Electric",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-18T10:00:00Z",
+    "next_maintenance": "2024-04-18T10:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Electric bike maintenance and battery check",
+    "work_performed": [
+      "Battery health check",
+      "Motor inspection",
+      "Electrical system test",
+      "Tire pressure check",
+      "Brake inspection",
+      "General cleaning"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Electric system functioning perfectly, battery at 95% capacity",
+    "created_at": "2024-01-18T10:00:00Z",
+    "updated_at": "2024-01-18T12:30:00Z"
+  },
+  {
+    "id": "MAINT-004",
+    "bike_id": "BSU-009",
+    "bike_name": "Spartan BMX",
+    "maintenance_type": "repair",
+    "maintenance_date": "2024-01-08T11:00:00Z",
+    "next_maintenance": "2024-02-08T11:00:00Z",
+    "technician": "USR-003",
+    "status": "in_progress",
+    "description": "Frame damage repair and component replacement",
+    "work_performed": [
+      "Frame inspection",
+      "Handlebar replacement",
+      "Stem replacement",
+      "Wheel truing",
+      "Safety check"
+    ],
+    "parts_replaced": [
+      {
+        "part": "Handlebar",
+        "cost": 800.0
+      },
+      {
+        "part": "Stem",
+        "cost": 300.0
+      }
+    ],
+    "cost": 1100.0,
+    "notes": "BMX bike sustained damage from stunt usage. Parts ordered, awaiting delivery.",
+    "created_at": "2024-01-08T11:00:00Z",
+    "updated_at": "2024-01-08T15:00:00Z"
+  },
+  {
+    "id": "MAINT-005",
+    "bike_id": "BSU-004",
+    "bike_name": "Spartan Road",
+    "maintenance_type": "repair",
+    "maintenance_date": "2024-01-25T14:00:00Z",
+    "next_maintenance": "2024-04-25T14:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Flat tire repair and tube replacement",
+    "work_performed": [
+      "Tire inspection",
+      "Tube replacement",
+      "Tire pressure check",
+      "Wheel inspection",
+      "Safety check"
+    ],
+    "parts_replaced": [
+      {
+        "part": "Inner tube",
+        "cost": 250.0
+      }
+    ],
+    "cost": 250.0,
+    "notes": "Flat tire repaired. Tire shows normal wear, no puncture damage found.",
+    "created_at": "2024-01-25T14:00:00Z",
+    "updated_at": "2024-01-25T15:30:00Z"
+  },
+  {
+    "id": "MAINT-006",
+    "bike_id": "BSU-002",
+    "bike_name": "Spartan Mountain",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-20T09:00:00Z",
+    "next_maintenance": "2024-04-20T09:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Regular maintenance for mountain bike",
+    "work_performed": [
+      "Suspension check",
+      "Disc brake inspection",
+      "Gear adjustment",
+      "Tire pressure check",
+      "Chain lubrication",
+      "General cleaning"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Mountain bike in good condition, suspension working properly",
+    "created_at": "2024-01-20T09:00:00Z",
+    "updated_at": "2024-01-20T11:00:00Z"
+  },
+  {
+    "id": "MAINT-007",
+    "bike_id": "BSU-006",
+    "bike_name": "Spartan Folding",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-22T13:00:00Z",
+    "next_maintenance": "2024-04-22T13:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Folding mechanism maintenance and general check",
+    "work_performed": [
+      "Folding mechanism lubrication",
+      "Hinge inspection",
+      "Lock mechanism check",
+      "Tire pressure check",
+      "Brake inspection",
+      "General cleaning"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Folding mechanism working smoothly, all locks secure",
+    "created_at": "2024-01-22T13:00:00Z",
+    "updated_at": "2024-01-22T14:30:00Z"
+  },
+  {
+    "id": "MAINT-008",
+    "bike_id": "BSU-007",
+    "bike_name": "Spartan Tandem",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-12T10:00:00Z",
+    "next_maintenance": "2024-04-12T10:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Tandem bike maintenance and dual brake check",
+    "work_performed": [
+      "Dual brake system check",
+      "Gear synchronization",
+      "Frame alignment check",
+      "Tire pressure check",
+      "Chain lubrication",
+      "Safety check"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Tandem bike in excellent condition, both brake systems working properly",
+    "created_at": "2024-01-12T10:00:00Z",
+    "updated_at": "2024-01-12T12:00:00Z"
+  },
+  {
+    "id": "MAINT-009",
+    "bike_id": "BSU-008",
+    "bike_name": "Spartan Cargo",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-16T11:00:00Z",
+    "next_maintenance": "2024-04-16T11:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Cargo bike maintenance and load capacity check",
+    "work_performed": [
+      "Cargo area inspection",
+      "Load capacity test",
+      "Brake system check",
+      "Tire pressure check",
+      "Chain lubrication",
+      "General cleaning"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Cargo bike in good condition, cargo area secure and functional",
+    "created_at": "2024-01-16T11:00:00Z",
+    "updated_at": "2024-01-16T13:00:00Z"
+  },
+  {
+    "id": "MAINT-010",
+    "bike_id": "BSU-010",
+    "bike_name": "Spartan Recumbent",
+    "maintenance_type": "routine",
+    "maintenance_date": "2024-01-30T15:00:00Z",
+    "next_maintenance": "2024-04-30T15:00:00Z",
+    "technician": "USR-003",
+    "status": "completed",
+    "description": "Recumbent bike maintenance and comfort check",
+    "work_performed": [
+      "Seat adjustment check",
+      "Backrest inspection",
+      "Gear system check",
+      "Brake inspection",
+      "Tire pressure check",
+      "General cleaning"
+    ],
+    "parts_replaced": [],
+    "cost": 0.0,
+    "notes": "Recumbent bike in excellent condition, seat and backrest comfortable",
+    "created_at": "2024-01-30T15:00:00Z",
+    "updated_at": "2024-01-30T17:00:00Z"
+  }
+] 

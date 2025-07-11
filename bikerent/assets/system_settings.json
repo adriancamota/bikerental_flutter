@@ -1,0 +1,189 @@
+{
+  "system_info": {
+    "app_name": "BSU Bike Rental System",
+    "version": "1.0.0",
+    "last_updated": "2024-01-15T00:00:00Z",
+    "maintenance_mode": false,
+    "debug_mode": false
+  },
+  "rental_policies": {
+    "max_rental_duration": "One Semester",
+    "min_gwa_requirement": 2.0,
+    "max_distance_from_campus": "5 km and above",
+    "min_income_requirement": 15000,
+    "required_documents": [
+      "Certificate of Indigency",
+      "Valid Student ID",
+      "Terms and Conditions Acceptance"
+    ],
+    "deposit_requirements": {
+      "electric_bikes": true,
+      "tandem_bikes": true,
+      "bmx_bikes": true,
+      "regular_bikes": false
+    },
+    "insurance_requirements": {
+      "electric_bikes": true,
+      "tandem_bikes": true,
+      "bmx_bikes": true,
+      "regular_bikes": false
+    },
+    "late_return_policy": {
+      "grace_period_hours": 1,
+      "hourly_fee": 50.0,
+      "max_late_hours": 24,
+      "suspension_days": 30
+    }
+  },
+  "bike_stations": [
+    {
+      "id": "STATION-A",
+      "name": "Main Campus - Bike Station A",
+      "location": "Near Engineering Building",
+      "capacity": 20,
+      "operating_hours": "7:00 AM - 6:00 PM",
+      "contact": "+63 912 345 6789"
+    },
+    {
+      "id": "STATION-B",
+      "name": "Main Campus - Bike Station B",
+      "location": "Near Business Building",
+      "capacity": 15,
+      "operating_hours": "7:00 AM - 6:00 PM",
+      "contact": "+63 923 456 7890"
+    },
+    {
+      "id": "STATION-C",
+      "name": "Main Campus - Bike Station C",
+      "location": "Near Arts and Sciences Building",
+      "capacity": 15,
+      "operating_hours": "7:00 AM - 6:00 PM",
+      "contact": "+63 934 567 8901"
+    }
+  ],
+  "user_roles": {
+    "admin": {
+      "permissions": [
+        "manage_users",
+        "manage_bikes",
+        "manage_applications",
+        "view_reports",
+        "system_settings"
+      ],
+      "description": "Full system access"
+    },
+    "manager": {
+      "permissions": [
+        "manage_bikes",
+        "manage_applications",
+        "view_reports"
+      ],
+      "description": "Bike rental management"
+    },
+    "staff": {
+      "permissions": [
+        "view_applications",
+        "update_bike_status"
+      ],
+      "description": "Daily operations"
+    },
+    "student": {
+      "permissions": [
+        "submit_application",
+        "view_rental_history"
+      ],
+      "description": "Student access"
+    },
+    "faculty": {
+      "permissions": [
+        "submit_application",
+        "view_rental_history"
+      ],
+      "description": "Faculty access"
+    },
+    "guest": {
+      "permissions": [
+        "view_bikes"
+      ],
+      "description": "Limited access"
+    }
+  },
+  "notification_settings": {
+    "email_notifications": {
+      "application_submitted": true,
+      "application_approved": true,
+      "application_rejected": true,
+      "rental_reminder": true,
+      "maintenance_notice": true
+    },
+    "sms_notifications": {
+      "application_submitted": false,
+      "application_approved": true,
+      "application_rejected": true,
+      "rental_reminder": true,
+      "maintenance_notice": false
+    },
+    "push_notifications": {
+      "application_submitted": true,
+      "application_approved": true,
+      "application_rejected": true,
+      "rental_reminder": true,
+      "maintenance_notice": true
+    }
+  },
+  "maintenance_schedule": {
+    "routine_interval_days": 90,
+    "inspection_interval_days": 30,
+    "emergency_response_hours": 4,
+    "preventive_maintenance": true,
+    "maintenance_team": [
+      "USR-003"
+    ]
+  },
+  "reporting": {
+    "daily_reports": true,
+    "weekly_reports": true,
+    "monthly_reports": true,
+    "rental_analytics": true,
+    "maintenance_analytics": true,
+    "user_analytics": true
+  },
+  "security": {
+    "password_policy": {
+      "min_length": 8,
+      "require_uppercase": true,
+      "require_lowercase": true,
+      "require_numbers": true,
+      "require_special_chars": false
+    },
+    "session_timeout_minutes": 30,
+    "max_login_attempts": 5,
+    "lockout_duration_minutes": 15,
+    "two_factor_auth": false
+  },
+  "backup": {
+    "auto_backup": true,
+    "backup_frequency_hours": 24,
+    "retention_days": 30,
+    "backup_location": "local"
+  },
+  "api_settings": {
+    "rate_limit_requests_per_minute": 100,
+    "max_file_upload_size_mb": 10,
+    "allowed_file_types": [
+      "pdf",
+      "doc",
+      "docx",
+      "jpg",
+      "jpeg",
+      "png"
+    ]
+  },
+  "ui_settings": {
+    "theme": "light",
+    "language": "en",
+    "date_format": "MM/dd/yyyy",
+    "time_format": "12h",
+    "timezone": "Asia/Manila"
+  }
+} 

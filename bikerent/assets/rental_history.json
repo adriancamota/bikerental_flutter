@@ -1,0 +1,236 @@
+[
+  {
+    "id": "RENT-001",
+    "application_id": "APP-001",
+    "user_id": "USR-004",
+    "user_email": "student1@bikerent.com",
+    "bike_id": "BSU-001",
+    "bike_name": "Spartan Cruiser",
+    "rental_start": "2024-01-15T08:00:00Z",
+    "rental_end": "2024-05-15T17:00:00Z",
+    "actual_return": "2024-05-15T16:30:00Z",
+    "duration_days": 121,
+    "status": "completed",
+    "pickup_location": "Main Campus - Bike Station A",
+    "return_location": "Main Campus - Bike Station A",
+    "pickup_staff": "USR-003",
+    "return_staff": "USR-003",
+    "bike_condition": {
+      "pickup": "excellent",
+      "return": "good",
+      "damages": [],
+      "maintenance_required": false
+    },
+    "usage_statistics": {
+      "total_distance": 450.5,
+      "average_daily_distance": 3.7,
+      "longest_trip": 12.3,
+      "most_used_routes": ["Engineering Building", "Library", "Cafeteria"]
+    },
+    "payment": {
+      "amount": 0.0,
+      "currency": "PHP",
+      "payment_method": "free_rental",
+      "deposit_paid": false,
+      "deposit_returned": false
+    },
+    "feedback": {
+      "rating": 5,
+      "comment": "Great bike! Very comfortable for daily campus commute. Helmet and basket were very useful.",
+      "suggestions": "Maybe add more bike stations around campus"
+    },
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2024-05-15T16:30:00Z"
+  },
+  {
+    "id": "RENT-002",
+    "application_id": "APP-003",
+    "user_id": "USR-007",
+    "user_email": "faculty1@bikerent.com",
+    "bike_id": "BSU-005",
+    "bike_name": "Spartan Electric",
+    "rental_start": "2024-01-10T08:00:00Z",
+    "rental_end": "2024-05-10T17:00:00Z",
+    "actual_return": "2024-05-10T16:45:00Z",
+    "duration_days": 121,
+    "status": "completed",
+    "pickup_location": "Main Campus - Bike Station A",
+    "return_location": "Main Campus - Bike Station A",
+    "pickup_staff": "USR-003",
+    "return_staff": "USR-003",
+    "bike_condition": {
+      "pickup": "excellent",
+      "return": "excellent",
+      "damages": [],
+      "maintenance_required": false
+    },
+    "usage_statistics": {
+      "total_distance": 320.8,
+      "average_daily_distance": 2.6,
+      "longest_trip": 8.5,
+      "most_used_routes": ["Faculty Building", "Research Center", "Parking Lot"]
+    },
+    "payment": {
+      "amount": 0.0,
+      "currency": "PHP",
+      "payment_method": "free_rental",
+      "deposit_paid": true,
+      "deposit_returned": true
+    },
+    "feedback": {
+      "rating": 5,
+      "comment": "Electric bike made commuting much easier, especially on hot days. Battery life was excellent.",
+      "suggestions": "Consider adding more electric bikes to the fleet"
+    },
+    "created_at": "2024-01-10T08:00:00Z",
+    "updated_at": "2024-05-10T16:45:00Z"
+  },
+  {
+    "id": "RENT-003",
+    "application_id": "APP-006",
+    "user_id": "USR-005",
+    "user_email": "student2@bikerent.com",
+    "bike_id": "BSU-002",
+    "bike_name": "Spartan Mountain",
+    "rental_start": "2024-01-20T09:00:00Z",
+    "rental_end": "2024-05-20T17:00:00Z",
+    "actual_return": "2024-05-20T17:30:00Z",
+    "duration_days": 121,
+    "status": "completed",
+    "pickup_location": "Main Campus - Bike Station B",
+    "return_location": "Main Campus - Bike Station B",
+    "pickup_staff": "USR-003",
+    "return_staff": "USR-003",
+    "bike_condition": {
+      "pickup": "good",
+      "return": "fair",
+      "damages": [
+        {
+          "type": "minor_scratches",
+          "location": "frame",
+          "description": "Light scratches on frame from normal use",
+          "severity": "minor"
+        }
+      ],
+      "maintenance_required": false
+    },
+    "usage_statistics": {
+      "total_distance": 280.3,
+      "average_daily_distance": 2.3,
+      "longest_trip": 15.2,
+      "most_used_routes": ["Business Building", "Student Center", "Sports Complex"]
+    },
+    "payment": {
+      "amount": 0.0,
+      "currency": "PHP",
+      "payment_method": "free_rental",
+      "deposit_paid": false,
+      "deposit_returned": false
+    },
+    "feedback": {
+      "rating": 4,
+      "comment": "Good bike for campus use. Mountain bike was perfect for the hilly areas around campus.",
+      "suggestions": "Regular cleaning of bikes would be appreciated"
+    },
+    "created_at": "2024-01-20T09:00:00Z",
+    "updated_at": "2024-05-20T17:30:00Z"
+  },
+  {
+    "id": "RENT-004",
+    "application_id": "APP-007",
+    "user_id": "USR-006",
+    "user_email": "student3@bikerent.com",
+    "bike_id": "BSU-004",
+    "bike_name": "Spartan Road",
+    "rental_start": "2024-01-25T08:30:00Z",
+    "rental_end": "2024-05-25T17:00:00Z",
+    "actual_return": "2024-05-25T18:15:00Z",
+    "duration_days": 121,
+    "status": "completed_late",
+    "pickup_location": "Main Campus - Bike Station C",
+    "return_location": "Main Campus - Bike Station C",
+    "pickup_staff": "USR-003",
+    "return_staff": "USR-003",
+    "bike_condition": {
+      "pickup": "excellent",
+      "return": "good",
+      "damages": [
+        {
+          "type": "flat_tire",
+          "location": "rear_wheel",
+          "description": "Flat tire upon return",
+          "severity": "minor"
+        }
+      ],
+      "maintenance_required": true
+    },
+    "usage_statistics": {
+      "total_distance": 520.7,
+      "average_daily_distance": 4.3,
+      "longest_trip": 18.5,
+      "most_used_routes": ["Arts Building", "Library", "Cafeteria", "Off-campus"]
+    },
+    "payment": {
+      "amount": 50.0,
+      "currency": "PHP",
+      "payment_method": "late_fee",
+      "deposit_paid": false,
+      "deposit_returned": false
+    },
+    "feedback": {
+      "rating": 3,
+      "comment": "Bike was fast and efficient, but had some issues with tire maintenance.",
+      "suggestions": "Better tire maintenance and more frequent checks"
+    },
+    "late_return": {
+      "hours_late": 1.25,
+      "fee_charged": 50.0,
+      "reason": "Traffic delay"
+    },
+    "created_at": "2024-01-25T08:30:00Z",
+    "updated_at": "2024-05-25T18:15:00Z"
+  },
+  {
+    "id": "RENT-005",
+    "application_id": "APP-008",
+    "user_id": "USR-004",
+    "user_email": "student1@bikerent.com",
+    "bike_id": "BSU-008",
+    "bike_name": "Spartan Cargo",
+    "rental_start": "2024-02-01T08:00:00Z",
+    "rental_end": "2024-06-01T17:00:00Z",
+    "actual_return": "2024-06-01T16:45:00Z",
+    "duration_days": 121,
+    "status": "completed",
+    "pickup_location": "Main Campus - Bike Station A",
+    "return_location": "Main Campus - Bike Station A",
+    "pickup_staff": "USR-003",
+    "return_staff": "USR-003",
+    "bike_condition": {
+      "pickup": "good",
+      "return": "good",
+      "damages": [],
+      "maintenance_required": false
+    },
+    "usage_statistics": {
+      "total_distance": 380.2,
+      "average_daily_distance": 3.1,
+      "longest_trip": 10.8,
+      "most_used_routes": ["Engineering Building", "Library", "Grocery Store", "Dormitory"]
+    },
+    "payment": {
+      "amount": 0.0,
+      "currency": "PHP",
+      "payment_method": "free_rental",
+      "deposit_paid": false,
+      "deposit_returned": false
+    },
+    "feedback": {
+      "rating": 5,
+      "comment": "Cargo bike was perfect for carrying books and groceries. Very practical for student life.",
+      "suggestions": "More cargo bikes would be great for students"
+    },
+    "created_at": "2024-02-01T08:00:00Z",
+    "updated_at": "2024-06-01T16:45:00Z"
+  }
+] 

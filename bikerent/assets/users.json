@@ -1,0 +1,180 @@
+[
+  {
+    "id": "USR-001",
+    "email": "admin@bikerent.com",
+    "password": "admin123",
+    "name": "Administrator",
+    "role": "admin",
+    "status": "active",
+    "profile": {
+      "first_name": "System",
+      "last_name": "Administrator",
+      "phone": "+63 912 345 6789",
+      "department": "IT Services",
+      "position": "System Administrator",
+      "student_id": null,
+      "college": null,
+      "year_level": null
+    },
+    "permissions": ["manage_users", "manage_bikes", "manage_applications", "view_reports", "system_settings"],
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z",
+    "last_login": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "USR-002",
+    "email": "manager@bikerent.com",
+    "password": "manager123",
+    "name": "Bike Rental Manager",
+    "role": "manager",
+    "status": "active",
+    "profile": {
+      "first_name": "Maria",
+      "last_name": "Santos",
+      "phone": "+63 923 456 7890",
+      "department": "Student Services",
+      "position": "Bike Rental Manager",
+      "student_id": null,
+      "college": null,
+      "year_level": null
+    },
+    "permissions": ["manage_bikes", "manage_applications", "view_reports"],
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z",
+    "last_login": "2024-01-14T14:20:00Z"
+  },
+  {
+    "id": "USR-003",
+    "email": "staff@bikerent.com",
+    "password": "staff123",
+    "name": "Bike Rental Staff",
+    "role": "staff",
+    "status": "active",
+    "profile": {
+      "first_name": "Juan",
+      "last_name": "Cruz",
+      "phone": "+63 934 567 8901",
+      "department": "Student Services",
+      "position": "Bike Rental Staff",
+      "student_id": null,
+      "college": null,
+      "year_level": null
+    },
+    "permissions": ["view_applications", "update_bike_status"],
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2024-01-01T00:00:00Z",
+    "last_login": "2024-01-13T09:15:00Z"
+  },
+  {
+    "id": "USR-004",
+    "email": "student1@bikerent.com",
+    "password": "student123",
+    "name": "John Dela Cruz",
+    "role": "student",
+    "status": "active",
+    "profile": {
+      "first_name": "John",
+      "last_name": "Dela Cruz",
+      "phone": "+63 945 678 9012",
+      "department": null,
+      "position": null,
+      "student_id": "2021-001234",
+      "college": "College of Engineering",
+      "year_level": "3rd Year"
+    },
+    "permissions": ["submit_application", "view_rental_history"],
+    "created_at": "2024-01-05T00:00:00Z",
+    "updated_at": "2024-01-05T00:00:00Z",
+    "last_login": "2024-01-15T08:45:00Z"
+  },
+  {
+    "id": "USR-005",
+    "email": "student2@bikerent.com",
+    "password": "student123",
+    "name": "Maria Garcia",
+    "role": "student",
+    "status": "active",
+    "profile": {
+      "first_name": "Maria",
+      "last_name": "Garcia",
+      "phone": "+63 956 789 0123",
+      "department": null,
+      "position": null,
+      "student_id": "2022-005678",
+      "college": "College of Business",
+      "year_level": "2nd Year"
+    },
+    "permissions": ["submit_application", "view_rental_history"],
+    "created_at": "2024-01-08T00:00:00Z",
+    "updated_at": "2024-01-08T00:00:00Z",
+    "last_login": "2024-01-14T16:30:00Z"
+  },
+  {
+    "id": "USR-006",
+    "email": "student3@bikerent.com",
+    "password": "student123",
+    "name": "Pedro Santos",
+    "role": "student",
+    "status": "suspended",
+    "profile": {
+      "first_name": "Pedro",
+      "last_name": "Santos",
+      "phone": "+63 967 890 1234",
+      "department": null,
+      "position": null,
+      "student_id": "2020-003456",
+      "college": "College of Arts and Sciences",
+      "year_level": "4th Year"
+    },
+    "permissions": ["submit_application", "view_rental_history"],
+    "created_at": "2024-01-10T00:00:00Z",
+    "updated_at": "2024-01-12T00:00:00Z",
+    "last_login": "2024-01-12T11:20:00Z",
+    "suspension_reason": "Late return of bike",
+    "suspension_end": "2024-02-12T00:00:00Z"
+  },
+  {
+    "id": "USR-007",
+    "email": "faculty1@bikerent.com",
+    "password": "faculty123",
+    "name": "Dr. Ana Reyes",
+    "role": "faculty",
+    "status": "active",
+    "profile": {
+      "first_name": "Ana",
+      "last_name": "Reyes",
+      "phone": "+63 978 901 2345",
+      "department": "College of Engineering",
+      "position": "Associate Professor",
+      "student_id": null,
+      "college": "College of Engineering",
+      "year_level": null
+    },
+    "permissions": ["submit_application", "view_rental_history"],
+    "created_at": "2024-01-03T00:00:00Z",
+    "updated_at": "2024-01-03T00:00:00Z",
+    "last_login": "2024-01-15T07:30:00Z"
+  },
+  {
+    "id": "USR-008",
+    "email": "guest@bikerent.com",
+    "password": "guest123",
+    "name": "Guest User",
+    "role": "guest",
+    "status": "active",
+    "profile": {
+      "first_name": "Guest",
+      "last_name": "User",
+      "phone": "+63 989 012 3456",
+      "department": null,
+      "position": null,
+      "student_id": null,
+      "college": null,
+      "year_level": null
+    },
+    "permissions": ["view_bikes"],
+    "created_at": "2024-01-15T00:00:00Z",
+    "updated_at": "2024-01-15T00:00:00Z",
+    "last_login": "2024-01-15T12:00:00Z"
+  }
+] 
